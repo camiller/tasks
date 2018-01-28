@@ -5,7 +5,7 @@ import miller.a4j.tasks.service.TaskService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("*/api/tasks")
+@RequestMapping("/api/tasks")
 public class TaskController {
 
     private TaskService taskService;
